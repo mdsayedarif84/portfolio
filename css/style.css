@@ -1,0 +1,62 @@
+
+
+
+.contactMe{color:white;
+	padding-top: 50px;}
+.contact-height{background-color: #4E5158;
+	height:800px;}
+.carousel-item-padding{
+    padding:100px 250px;
+    text-align: center;
+}
+
+/*index.html*/
+
+.add-section{
+	 background: url("../img/addsection.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+    /*portfolio.html*/
+.emailText{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.email-section {
+    height: 150px;
+}
+.email-section2{
+    height: 100px;
+}
+.add-section1{
+    background: url("../img/addsection1.png");
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+.add-section2{
+    background: url("../img/addsection3.jpeg");
+    background-size:100% 100% ;
+    background-attachment:fixed;
+}
+.add-section3{
+    background: url("../img/addSection2.jpg");
+    background-attachment: fixed;
+    background-size:100% 100% ;
+}
+.text-center{
+    color: white;
+}
+.myDetails{
+    color:#A0CE4E;
+    padding-top: 50px;
+}
+.content-container{
+    height: 200px;
+    text-align: center;
+}
+.content-container1{
+    height: 200px;
+}
+#myMenu{
+    ul li:a hover
+}
