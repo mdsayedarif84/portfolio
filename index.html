@@ -224,7 +224,9 @@
                                         <input type="password" id="password" name="password" class="form-control" placeholder="passpword"/>
                                     </div>
                                     <div class="form-group text-center">
-                                        <label><a href="" style="color:#008A00; text-decoration: none;">Forget Passoword</a></label>
+                                        <button class="btn btn-outline-warning">
+                                            <label for="forgetPassword"><a href=""  class="text-primary" style="text-decoration: none;" id="forgetPassword"><strong>Forget Passoword</strong></a></label>
+                                        </button>
                                     </div>
                                     <div class="">
                                         <input type="submit" name="btn" class="btn btn-outline-dark btn-block" value="Submit">
@@ -235,7 +237,11 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <h3>Not registered? To click <a href="" style="color:#008A00; text-decoration: none;">here</a></h3>
+                    <h3>Not registered? To click
+                        <a href="" class="btn btn-outline-warning  text-danger" data-toggle="modal" data-target="#signUp" style="text-decoration: none;">
+                            <strong>HERE</strong>
+                        </a>
+                    </h3>
                 </div>
             </div>
         </div>
@@ -270,15 +276,15 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="email" class="col-form-label col-sm-3">Email</label>
+                                        <label for="mail" class="col-form-label col-sm-3">Email</label>
                                         <div class="col-sm-9">
-                                            <input type="email" name="email" class="form-control" placeholder="fsmoon84@gmail.com"/>
+                                            <input type="email" id ="mail" name="email" class="form-control" placeholder="fsmoon84@gmail.com"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="password" class="col-form-label col-sm-3">Password</label>
+                                        <label for="pass" class="col-form-label col-sm-3">Password</label>
                                         <div class="col-sm-9">
-                                            <input type="password" id=" password" name="password" class="form-control"/>
+                                            <input type="password" id="pass" name="password" class="form-control"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -307,9 +313,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-form-label col-sm-3">District Name</label>
+                                        <label class="col-form-label col-sm-3" for="districtName">District Name</label>
                                         <div class="col-sm-9">
-                                            <select  name="district_name" class="form-control">
+                                            <select  name="district_name" class="form-control" id="districtName">
                                                 <option>---Select Distirct Name</option>
                                                 <option value="Dhaka">Dhaka</option>
                                                 <option value="Noakhali">Nokhali</option>
@@ -322,9 +328,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-form-label col-sm-3">Image</label>
+                                        <label class="col-form-label col-sm-3" for="img">Image</label>
                                         <div class="col-sm-9">
-                                            <input type="file" name="image"  multiple accept="image/*"/>
+                                            <input type="file" name="image" id="img" multiple accept="image/*"/>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -339,7 +345,7 @@
                                         </div>
                                     </div>
                                     <div class="">
-                                        <input type="submit" name="btn" class="btn btn-success btn-block" value="Submit"/>
+                                        <input type="submit" name="btn" class="btn btn-outline-info btn-block" value="Submit"/>
                                     </div>
                                 </form>
                             </div>
@@ -347,7 +353,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <h3 >Please Input Information to sign up.</h3>
+                    <h3>Please Input Information to sign up.</h3>
                 </div>
             </div>
         </div>
