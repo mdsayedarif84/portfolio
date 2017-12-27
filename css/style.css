@@ -59,3 +59,10 @@
 }
 #myMenu{
 }
+
+/*gallery header*/
+.header{
+    height: 50px;
+    padding-top: 10px;
+    color:white;
+}
