@@ -63,12 +63,13 @@
     .content-container1{
         height: 200px;
     }
-    #myMenu{
-    }
 
     /*gallery section*/
     .gallery-section{
         background: url("../img/gallery section.jpg");
         background-size: 100% 100%;
-        background-attachment: fixed;
+        /*background-attachment: fixed;*/
+    }
+    .gallery-height{
+        padding-top: 150px;
     }
