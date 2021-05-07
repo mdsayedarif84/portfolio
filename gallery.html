@@ -7,55 +7,77 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
-<body>
+    <body>
+        <!-- ?menu section? -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <a href="" class="navbar-brand">LOGO</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myMenu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown" ><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
+                            <ul class="dropdown-menu bg-secondary dropdown-menu-end">
+                                <li><a href="" class="nav-link">Education</a></li>
+                                <li><a href="" class="nav-link">Details</a></li>
+                                <li><a href="" class="nav-link">Personal History</a></li>
+                                <li><a href="" class="nav-link">My Profile</a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#login">Login</a></li>
+                        <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#signUp">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--        gallery section start-->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <label class="col-form-label col-sm-3">Name</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<div class="container-fluid">
-    <div class="row bg-info fixed-top">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 header">
-            <h5 style="margin-left: 50px">Call us me ! 01845711468 -||- <a href="" style="text-decoration: none;"> mdsayedarif84@gmail.com</a></h5>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-6">
-            <a href="https://www.facebook.com"><img src="img/facebook.png" style="border-right: 50%; height: 50px; width: 50px;"></a>
-        </div>
-    </div>
-</div>
-<table border="1" width="980" align="center">
-    <tr>
-        <td height="150" width="200">
-            <img src="img/cricket.svg.png" height="150"/>
-        </td>
-        <td bgcolor="#faebd7">
-            <h1><center><font color="red">বাংলাদেশ ক্রিকেট বোর্ড</center></h1>
-        </td>
-        <td width="200"/>
-        <img src="img/tigers.jpg" height="150" width="200" alt="cricket"/>
-        </td>
-    </tr>
-    <tr>
-        <td height="50" colspan="3" align="center">
-            <a href="index.html" alt="">Home</a> ||
-            <a href="about.html" alt="">about</a>||
-            <a href="Portfolio.html" alt="">Portfolio</a> ||
-            <a href="gallery.html" alt="">Gallery</a> ||
-            <a href="contact.html" alt="">contact</a>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2" height="600" valign="top">
-            <h1 align="center">Myself</h1>
-            <p>I am Md. Sayed Ullah Arif.I am student.</p>
-        </td>
-        <td width="200">
-            <img src="img/Cricket-Clinique.png" width="200"/>
-        </td>
-    </tr>
-    <tr>
-        <td height="50" width="200"></td>
-        <td colspan="2"></td>
-    </tr>
-</table>
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/proper.js"></script>
-<script src="js/bootstrap.js"></script>
-</body>
+<!--        <table border="1" width="980" align="center">-->
+<!--            <tr>-->
+<!--                <td height="150" width="200">-->
+<!--                    <img src="img/cricket.svg.png" height="150"/>-->
+<!--                </td>-->
+<!--                <td bgcolor="#faebd7">-->
+<!--                    <h1><center><font color="red">বাংলাদেশ ক্রিকেট বোর্ড(Bangladesh people love always cricket</font></center></h1>-->
+<!--                </td>-->
+<!--                <td width="200"/>-->
+<!--                <img src="img/tigers.jpg" height="150" width="200" alt="cricket"/>-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td colspan="2" height="600" valign="top">-->
+<!--                    <h1 align="center">Myself</h1>-->
+<!--                    <p>I am Md. Sayed Ullah Arif.I am student.</p>-->
+<!--                </td>-->
+<!--                <td width="200">-->
+<!--                    <img src="img/Cricket-Clinique.png" width="200"/>-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td height="50" width="200"></td>-->
+<!--                <td colspan="2"></td>-->
+<!--            </tr>-->
+<!--        </table>-->
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/proper.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
 </html>

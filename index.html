@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-
     <!--menu section -->
-
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
         <div class="container">
             <a href="" class="navbar-brand">LOGO</a>
@@ -20,7 +18,14 @@
             <div class="collapse navbar-collapse" id="myMenu">
               <ul class="navbar-nav mr-auto">
                   <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                  <li class="nav-item" ><a href="about.html" class="nav-link">About</a></li>
+                  <li class="nav-item dropdown" ><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
+                    <ul class="dropdown-menu bg-secondary dropdown-menu-end">
+                        <li><a href="" class="nav-link">Education</a></li>
+                        <li><a href="" class="nav-link">Details</a></li>
+                        <li><a href="" class="nav-link">Personal History</a></li>
+                        <li><a href="" class="nav-link">My Profile</a> </li>
+                    </ul>
+                  </li>
                   <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
                   <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                   <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -96,7 +101,7 @@
       </div>
   </div>
 
-    <!-- card section start -->
+    <!-- card  start -->
 
     <div class="container">
       <div class="row">
@@ -142,8 +147,8 @@
           <div class="carousel slide" data-ride="carousel" data-interval="">
             <div class="carousel-inner">
               <div class="carousel-item active carousel-item-padding" >
-                <h2 style="color:white;">WEB DESIGN & DEVELOPMENT</h2>
-                <p style="color:white; font-size: 20px;">MD. Sayed Ullah Arif</p>
+                <h2 class="text-success">WEB DESIGN & DEVELOPMENT</h2>
+                <p class="text-warning" style=" font-size: 20px;">MD. Sayed Arif</p>
               </div>
             </div>
           </div>
@@ -198,9 +203,7 @@
         </div>
       </div>
     </div>
-
     <!--login modal-->
-
     <div class="modal fade" id="login">
         <div class="modal-dialog modal-md">
             <div class="modal-content">
@@ -246,9 +249,8 @@
             </div>
         </div>
     </div>
-
+    <!--    logIn modal end-->
     <!--sign up modal start -->
-
     <div class="modal fade"  id="signUp">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -358,9 +360,8 @@
             </div>
         </div>
     </div>
-
+    <!--    signUp modal end-->
     <!--read more modal my dream-->
-
     <div class="modal fade " id="readMore">
         <div class="modal-dialog modal-md">
             <div class="modal-content" style="background-color: #4E5158;color: white;">
