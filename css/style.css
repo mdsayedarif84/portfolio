@@ -73,3 +73,13 @@
     .gallery-height{
         padding-top: 150px;
     }
+    .gallery-main-image{
+        height: 400px;
+        width: 100%;
+        border: 1px solid red;
+    }
+    .sub-image{
+        height: 50px;
+        width: 86px;
+        border: 1px solid gray;
+    }
