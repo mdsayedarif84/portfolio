@@ -4,8 +4,8 @@
     <meta charset="utf-8"/>
     <title> Contact  </title>
          <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-         <link rel="stylesheet" href="css/bootstrap.css"/>
-         <link rel="stylesheet" href="css/style.css"/>
+         <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+         <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
     <body >
         <!-- ?menu section? -->
@@ -17,7 +17,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="myMenu">
                   <ul class="navbar-nav mr-auto">
-                      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                      <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                       <li class="nav-item dropdown" ><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
                           <ul class="dropdown-menu bg-secondary dropdown-menu-end">
                               <li><a href="" class="nav-link">Education</a></li>
@@ -26,9 +26,9 @@
                               <li><a href="" class="nav-link">My Profile</a> </li>
                           </ul>
                       </li>
-                      <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                      <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                      <li class="nav-item"><a href="portfolio.php" class="nav-link">Portfolio</a></li>
+                      <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+                      <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                   </ul>
                   <ul class="navbar-nav">
                       <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#login">Login</a></li>
@@ -237,8 +237,8 @@
             </div>
         </div>
         <!--    signUp modal end-->
-        <script src="js/jquery-3.2.1.js"></script>
-        <script src="js/proper.js"></script>
-        <script src="js/bootstrap.js"></script>
+        <script src="assets/js/jquery-3.2.1.js"></script>
+        <script src="assets/js/proper.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
     </body>
 </html>

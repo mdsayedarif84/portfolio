@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8"/>
     <title> Portfolio  </title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="shortcut icon" href="img/favicon-fs.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="shortcut icon" href="assets/imgs/favicon-fs.ico" type="image/x-icon">
 </head>
     <body>
        <!-- Menu section -->
@@ -17,7 +17,7 @@
             </button>
             <div class="collapse navbar-collapse" id="myMenu">
               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                  <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                   <li class="nav-item dropdown" ><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
                       <ul class="dropdown-menu bg-secondary dropdown-menu-end">
                           <li><a href="" class="nav-link">Education</a></li>
@@ -26,9 +26,9 @@
                           <li><a href="" class="nav-link">My Profile</a> </li>
                       </ul>
                   </li>
-                  <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                  <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                  <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li class="nav-item"><a href="portfolio.php" class="nav-link">Portfolio</a></li>
+                  <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+                  <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
               </ul>
               <ul class="navbar-nav">
                 <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#login">Login</a></li>
@@ -41,7 +41,7 @@
        <div class="container" style="background-color: #F1F1F1; padding-top: 30px;">
             <div class="row">
                 <div class="col-xl-12 col-sm-4 col-md-6 header-height">
-                    <img src="img/pic.jpg" style="height: 180px; width: 180px; border-radius:50%; margin: 20px 0 0 40%;">
+                    <img src="assets/imgs/pic.jpg" style="height: 180px; width: 180px; border-radius:50%; margin: 20px 0 0 40%;">
                     <h2 class="text-info" style="text-align: center;">Welome to my portfolio site</h2>
                     <p style="text-align: center;">To write your Bio-data in here</p>
                 </div>
@@ -535,9 +535,9 @@
            </div>
        </div>
        <!--    signUp modal end-->
-        <script src="js/jquery-3.2.1.js"></script>
-        <script src="js/proper.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/my-script.js"></script>
+        <script src="assets/js/jquery-3.2.1.js"></script>
+        <script src="assets/js/proper.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/my-script.js"></script>
     </body>
 </html>

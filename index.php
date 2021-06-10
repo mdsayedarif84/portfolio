@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8"/>
     <title>Home page</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
     <body>
         <!--menu section -->
@@ -17,7 +17,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="myMenu">
                   <ul class="navbar-nav mr-auto">
-                      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                      <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                       <li class="nav-item dropdown" ><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
                         <ul class="dropdown-menu bg-secondary dropdown-menu-end">
                             <li><a href="" class="nav-link">Education</a></li>
@@ -26,9 +26,9 @@
                             <li><a href="" class="nav-link">My Profile</a> </li>
                         </ul>
                       </li>
-                      <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                      <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                      <li class="nav-item"><a href="portfolio.php" class="nav-link">Portfolio</a></li>
+                      <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+                      <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                   </ul>
                   <ul class="navbar-nav">
                     <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#login">
@@ -55,35 +55,35 @@
                       </ol>
                       <div class="carousel-inner">
                           <div class="carousel-item active">
-                              <img src="img/slider1.jpg" class="d-block w-100" style="height: 400px;width: 100px;"/>
+                              <img src="assets/imgs/slider1.jpg" class="d-block w-100" style="height: 400px;width: 100px;"/>
                               <div class="carousel-caption">
                                   <h2 class="text-danger">Hey! I am FS moon.</h2>
                                   <p class="bg-danger">The scenary is beautiful.I like to this.</p>
                               </div>
                             </div>
                           <div class="carousel-item">
-                              <img src="img/slider2s.jpg" class="d-block w-100" style="height: 400px;width: 100px;" />
+                              <img src="assets/imgs/slider2s.jpg" class="d-block w-100" style="height: 400px;width: 100px;" />
                               <div class="carousel-caption">
                                   <h3 class="text-info">Hey! This is  Universal Truth.</h3>
                                   <p class="bg-success">""A firend in need is a friend in deed."" </p>
                               </div>
                           </div>
                           <div class="carousel-item">
-                              <img src="img/slider3.jpg" class="d-block w-100" style="height: 400px;width: 100px;"/>
+                              <img src="assets/imgs/slider3.jpg" class="d-block w-100" style="height: 400px;width: 100px;"/>
                               <div class="carousel-caption">
                                   <h3 class="text-light">Hey! This is  Universal Truth.</h3>
                                   <p class="bg-primary">""A firend in need is a friend in deed."" </p>
                               </div>
                           </div>
                           <div class="carousel-item">
-                              <img src="img/slider4.jpg" class="d-block w-100" style="height: 400px;width: 100px;"/>
+                              <img src="assets/imgs/slider4.jpg" class="d-block w-100" style="height: 400px;width: 100px;"/>
                               <div class="carousel-caption">
                                   <h3 class="text-secondary">Hey! This is  Universal Truth.</h3>
                                   <p class="bg-warning">""A firend in need is a friend in deed."" </p>
                               </div>
                           </div>
                           <div class="carousel-item">
-                              <img src="img/slider5.png" class="d-block w-100" style="height: 400px;width:auto;"/>
+                              <img src="assets/imgs/slider5.png" class="d-block w-100" style="height: 400px;width:auto;"/>
                               <div class="carousel-caption">
                                   <h3 class="text-primary">Hey! This is  Universal Truth.</h3>
                                   <p>""A firend in need is a friend in deed."" </p>
@@ -107,7 +107,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card">
-                <img src="img/card2.png" alt="FS" class="card-img-top" style="height: 200px;">
+                <img src="assets/imgs/card2.png" alt="FS" class="card-img-top" style="height: 200px;">
                 <div class="card-body">
                     <h3>My Mission</h3>
                     <p class="card-text">If you want know,What is Mission?Then you can click Read more</p>
@@ -117,7 +117,7 @@
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img src="img/card.jpg" alt="FS" class="card-img-top" style="height: 200px;">
+                <img src="assets/imgs/card.jpg" alt="FS" class="card-img-top" style="height: 200px;">
                 <div class="card-body">
                   <h3>My Division</h3>
                   <p class="card-text">If you want know,What is division?Then you can click Read more</p>
@@ -127,7 +127,7 @@
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img src="img/card3.jpg" alt="FS" class="card-img-top" style="height: 200px;">
+                <img src="assets/imgs/card3.jpg" alt="FS" class="card-img-top" style="height: 200px;">
                 <div class="card-body">
                     <h3>My Dream</h3>
                     <p class="card-text">If you want know,What is dream?Then you can click Read more</p>
@@ -163,7 +163,7 @@
           <div class="row">
             <div class="col-md-3">
               <div class="card">
-                <img src="img/2.jpg" alt="FS" class="card-img-top" style="height: 200px;">
+                <img src="assets/imgs/2.jpg" alt="FS" class="card-img-top" style="height: 200px;">
                 <div class="card-body">
                   <h3>Hello I am FS</h3>
                   <p class="card-text">This my card section one.This my card pattern.This my card pattern.</p>
@@ -173,7 +173,7 @@
             </div>
             <div class="col-md-3">
               <div class="card">
-                <img src="img/3.jpg" alt="FS" class="card-img-top" style="height: 200px;">
+                <img src="assets/imgs/3.jpg" alt="FS" class="card-img-top" style="height: 200px;">
                 <div class="card-body">
                   <h3>Hello I am FS</h3>
                   <p class="card-text">This my card section one.This my card pattern.This my card pattern.</p>
@@ -183,7 +183,7 @@
             </div>
             <div class="col-md-3">
               <div class="card">
-                <img src="img/4.jpg" alt="FS" class="card-img-top" style="height: 200px;">
+                <img src="assets/imgs/4.jpg" alt="FS" class="card-img-top" style="height: 200px;">
                 <div class="card-body">
                   <h3>Hello I am FS</h3>
                   <p class="card-text">This my card section one.This my card pattern.This my card pattern.</p>
@@ -193,7 +193,7 @@
             </div>
             <div class="col-md-3">
               <div class="card">
-                <img src="img/5.jpg" alt="FS" class="card-img-top" style="height: 200px;">
+                <img src="assets/imgs/5.jpg" alt="FS" class="card-img-top" style="height: 200px;">
                 <div class="card-body">
                   <h3>Hello I am FS</h3>
                   <p class="card-text">This my card section one.This my card pattern.This my card pattern.</p>
@@ -477,9 +477,9 @@
                 </div>
             </div>
         </div>
-        <script src="js/jquery-3.2.1.js"></script>
-        <script src="js/proper.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/myScript.js"></script>
+        <script src="assets/js/jquery-3.2.1.js"></script>
+        <script src="assets/js/proper.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/myScript.js"></script>
     </body>
 </html>
